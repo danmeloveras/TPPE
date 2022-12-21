@@ -6,8 +6,8 @@ import org.junit.runners.MethodSorters;
 import static org.junit.Assert.*;
 
 
-import aplicacao.Deduction;
-import aplicacao.IRPF;
+import application.Deduction;
+import application.IRPF;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class DeductionTest {

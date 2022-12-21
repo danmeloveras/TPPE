@@ -1,4 +1,4 @@
-package aplicacao;
+package application;
 import java.util.ArrayList; 
 import exceptions.EmptyIncomesException;
 import exceptions.NullIncomesException;
@@ -57,7 +57,7 @@ public class IRPF {
 		Income result = null;
 		for (Income i : incomes) {
 			if (i.description.equalsIgnoreCase(description))
-				result = r;
+				result = i;
 		}
 		return result;
 	}

@@ -7,7 +7,7 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 
-@SuiteClasses({ DeductionTest.class, IncomeTest.class})
+@SuiteClasses({ DeductionTest.class, IncomeTest.class, EmptyIncomesTest.class})
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
