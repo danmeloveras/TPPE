@@ -33,11 +33,11 @@ public class IRPF {
 	}
 
 	public float allDeductions() {
-		float sum = 0f;
+		float result = 0f;
 		for (Deduction d : deductions){
-			sum += d.getValue();
+			result += d.getValue();
 		}
-		return sum;
+		return result;
 	}
 
 	public int sizeIncomes() {
@@ -45,8 +45,7 @@ public class IRPF {
 	}
 
 	public int sizeAllDeductions() {
-		int count = deductions.size();
-		return count;
+		return deductions.size();
 	}
 
 	public Object[] getIncomes() {
