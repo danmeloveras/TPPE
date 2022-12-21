@@ -1,5 +1,4 @@
 package application;
-
 public class Deduction {
 
 	String description;
