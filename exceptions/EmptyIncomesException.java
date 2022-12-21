@@ -1,10 +1,10 @@
 package exceptions;
 
-public class EmptyIncomes extends IncomeException {
+public class EmptyIncomesException extends IncomeException {
 	public final static String message = "Empty incomes: the number of incomes is "
 			+ "equals zero.";
 	
-	public EmptyIncomes() {
+	public EmptyIncomesException() {
 		super(message);
 	}
 }
