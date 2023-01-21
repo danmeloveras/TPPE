@@ -61,16 +61,17 @@ public class IRPF {
 		}
 		return result;
 	}
+	public float logicToCalculateBasis() {
+		float result = 0; 
+			for (Income i : incomes) {
+				result += i.getValue();
+			}
+			return result;
+	}
 
 	public float calculateBasis() throws EmptyIncomesException  {
 		if (incomes.isEmpty())
 			throw new EmptyIncomesException();
-		else {
-			float basis = 0; 
-			for (Income i : incomes) {
-				basis += i.getValue();
-			}
-			return basis;
-		}
+		return sizeAllDeductions();
 	}
 }
