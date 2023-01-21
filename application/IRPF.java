@@ -7,15 +7,8 @@ public class IRPF {
 	ArrayList<Deduction> deductions = new ArrayList<Deduction>();
 	ArrayList<Income> incomes = new ArrayList<Income>();
 	
-	public boolean registerIncome(Income i) {
-		Income temporaryIncome = seeIncome(i.description);
-		if (temporaryIncome != null) {
-			incomes.remove(temporaryIncome);
-			i.value += temporaryIncome.value;
-		}
-		boolean result = incomes.add(i);
-		return result;
-	}
+	public RegisterIncome registerIncome = new RegisterIncome(incomes);
+
 
 	public boolean registerDeduction(Deduction d) {
 		boolean result = deductions.add(d);
@@ -53,14 +46,7 @@ public class IRPF {
 		return result;
 	}
 
-	private Income seeIncome(String description) {
-		Income result = null;
-		for (Income i : incomes) {
-			if (i.description.equalsIgnoreCase(description))
-				result = i;
-		}
-		return result;
-	}
+
 	public float logicToCalculateBasis() {
 		float result = 0; 
 			for (Income i : incomes) {
