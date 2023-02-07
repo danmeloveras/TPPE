@@ -22,6 +22,14 @@
 
 • Trocar tipo por subclasse ou trocar tipo por State / Strategy: uma vez que o método encontra-se no local devido altere-o de moro a usar o polimorfismo. 
 
+
+
+
+
+
+
+
+
 ## 📚 Simplicidade de código
 
 <p align="justify">A simplicidade do código refere-se à qualidade de um código fácil de entender, manter e alterar. Isso inclui uma estrutura clara, nomes de variáveis ​​significativos, documentação adequada e evitar a duplicação de código. A simplicidade do código é importante porque permite que os desenvolvedores trabalhem com mais eficiência reduzindo o risco de bugs ou erros futuros.</p>
@@ -100,11 +108,21 @@
 
 ## 📚 Idiomático
 
-<p align="justify">O uso de um código de idioma, também conhecido como código de localidade, ajuda a garantir que o software e os sites exibam informações, como datas, horas, moeda e texto, no formato correto para uma região ou idioma específico. Isso ajuda a evitar confusão e má interpretação das informações para os usuários e torna o conteúdo mais acessível para o público global. Além disso, o uso de códigos de idioma também pode ajudar na localização de software e sites, permitindo que sejam traduzidos para diferentes idiomas, tornando-os utilizáveis para uma ampla gama de usuários.</p>
+<p align="justify">Esse conceito está ligado também a elegância e simplicidade de código, refere-se a claridade e principalmente a coesão do código. Programar é ler uma história, as convenções de nomenclatura devem ser compreendidas. É recomendado escrever nossos códigos em inglês pois assim garantimos:</p>
+
+<p align="justify">Universalidade: o inglês é um idioma amplamente falado e é usado como um meio de comunicação comum na indústria de tecnologia.</p>
+
+<p align="justify">Facilidade de aprendizado: Para falantes não nativos de inglês, a sintaxe e a estrutura do idioma são mais fáceis de aprender em comparação com outras linguagens de programação.</p>
+
+<p align="justify">Grande comunidade de desenvolvedores: o uso do inglês na codificação resultou em uma grande e ativa comunidade de desenvolvedores, tornando mais fácil encontrar recursos, colaborar e obter suporte.</p>
+
+<p align="justify">Abundância de recursos: o uso generalizado do inglês na codificação resultou em uma abundância de tutoriais, documentação e fóruns on-line no idioma.</p>
+
+<p align="justify">Motivos do legado: Muitos dos primeiros sistemas de computador e linguagens de programação foram desenvolvidos por indivíduos e organizações que falam inglês, levando à ampla adoção do inglês na codificação.</p>
 
 <p align="center"><img alt="image" src="https://user-images.githubusercontent.com/117123731/217144761-255f1a0a-5abb-411e-8843-ded025c2ca98.png"></p>
 
-<p align="justify">No examplo acima temos um código com as variáveis todas em inglêes, garantindo um código idiomático.</p>
+<p align="justify">No examplo acima temos um código com as variáveis todas em inglês, garantindo um código idiomático.</p>
 
 ### ✨ Relação da característica com os maus-cheiros de código definidos por Fowler
 <p align="justify">Se tivéssemos o código acima escrito de uma outra forma como mostrado abaixo por exemplo, teríamos o mau cheiro do <b>campo temporário</b>.</p>
@@ -115,6 +133,19 @@
 <p align="justify">Para transformar no mesmo código visto mais acima, aplicamos:</p>
 
 • Extrair classe: para criar um local onde as variáveis temporárias serão armazenadas. 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 📚 Boa documentação
 
