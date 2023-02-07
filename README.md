@@ -83,3 +83,36 @@
 
 • Extrair método / método template: extrair comportamento comum de dois métodos e implementar a variabilidade em subclasses. 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 📚 Idiomático
+
+<p align="justify">O uso de um código de idioma, também conhecido como código de localidade, ajuda a garantir que o software e os sites exibam informações, como datas, horas, moeda e texto, no formato correto para uma região ou idioma específico. Isso ajuda a evitar confusão e má interpretação das informações para os usuários e torna o conteúdo mais acessível para o público global. Além disso, o uso de códigos de idioma também pode ajudar na localização de software e sites, permitindo que sejam traduzidos para diferentes idiomas, tornando-os utilizáveis para uma ampla gama de usuários.</p>
+
+<p align="center"><img alt="image" src="https://user-images.githubusercontent.com/117123731/217144761-255f1a0a-5abb-411e-8843-ded025c2ca98.png"></p>
+
+<p align="justify">No examplo acima temos um código com as variáveis todas em inglêes, garantindo um código idiomático.</p>
+
+### ✨ Relação da característica com os maus-cheiros de código definidos por Fowler
+<p align="justify">Se tivéssemos o código acima escrito de uma outra forma como mostrado abaixo por exemplo, teríamos o mau cheiro do <b>campo temporário</b>.</p>
+
+<p align="center"><img alt="image" src="https://user-images.githubusercontent.com/117123731/217144889-65231a55-351d-4621-8f5a-c5e6cb189241.png"></p>
+
+### ✨ Operação de refatoração capaz de levar o projeto de código a ter a característica em análise
+<p align="justify">Para transformar no mesmo código visto mais acima, aplicamos:</p>
+
+• Extrair classe: para criar um local onde as variáveis temporárias serão armazenadas. 
+
