@@ -1,6 +1,6 @@
 # TPPE03
 
-<p align="justify">As características de um bom projeto de software apresentadas acima estão, de certo modo, associadas aos maus-cheiros de código apresentados por Martin Fowler em seu catálogo de refatorações e relacionados às operações que tratam tais maus-cheiros. De acordo com a definição do próprio Martin Fowler, refatoração é uma maneira de aperfeiçoar o projeto de código existente sem alterar o seu comportamento externamente observável. Para esse trabalho o grupo escolhi 5 características dentre as 9 características de um bom projeto de software apresentadas no enunciado do trabalho, aqui estão.</p>
+<p align="justify">As características de um bom projeto de software apresentadas acima estão, de certo modo, associadas aos maus-cheiros de código apresentados por Martin Fowler em seu catálogo de refatorações e relacionados às operações que tratam tais maus-cheiros. De acordo com a definição do próprio Martin Fowler, refatoração é uma maneira de aperfeiçoar o projeto de código existente sem alterar o seu comportamento externamente observável. Para esse trabalho escolhi 5 características dentre as 9 características de um bom projeto de software apresentadas no enunciado do trabalho, aqui estão.</p>
 
 ## 📚 Elegância de código
 
@@ -115,4 +115,31 @@
 <p align="justify">Para transformar no mesmo código visto mais acima, aplicamos:</p>
 
 • Extrair classe: para criar um local onde as variáveis temporárias serão armazenadas. 
+
+## 📚 Boa documentação.
+
+<p align="justify">Uma boa documentação resulta em:</p>
+
+<p align="justify">Melhor compreensibilidade: torna mais fácil para outros desenvolvedores entender o código, especialmente se eles tiverem que modificá-lo ou mantê-lo.</p>
+
+<p align="justify">Manutenção aprimorada: o código bem documentado facilita a manutenção e atualização, reduzindo a probabilidade de introduzir bugs ou causar problemas de compatibilidade.</p>
+
+<p align="justify">Correção de bugs mais rápida: uma boa documentação ajuda na correção de bugs de forma mais rápida e eficiente, fornecendo instruções claras sobre o comportamento pretendido e a funcionalidade do código.</p>
+
+<p align="justify">Melhor colaboração: quando vários desenvolvedores trabalham na mesma base de código, uma documentação clara e concisa permite uma colaboração suave e reduz a chance de mal-entendidos.</p>
+
+<p align="justify">Concluindo, uma boa documentação ajuda a garantir a viabilidade a longo prazo e a manutenção do código.</p>
+
+<p align="center"><img alt="image" src="https://user-images.githubusercontent.com/117123731/217146308-756d6c83-2255-4203-b83d-6b774b46c69d.png"></p>
+
+<p align="justify">No exemplo acima temos a documentação completa do framework React Native.</p>
+
+### ✨ Relação da característica com os maus-cheiros de código definidos por Fowler
+<p align="justify">Vale salientar que comentário não é documentação, se fizermos isso, ocasionamos o mau cheiro de <b>Comentário</b>.Pode haver vários motivos pelos quais os comentários não podem ser usados no código como a falta de tempo, às vezes, a pressão para cumprir os prazos pode resultar na omissão de documentação, pois leva tempo para escrever comentários significativos e claros, por exemplo.</p>
+
+<p align="center"><img alt="image" src="https://user-images.githubusercontent.com/117123731/217146194-47eb2e45-1da0-4d79-85b5-59d4ea1dada1.png"></p>
+
+### ✨ Operação de refatoração capaz de levar o projeto de código a ter a característica em análise
+<p align="justify">Para melhorar o código basta remover os comentários. É importante ter em mente que os comentários são uma ferramenta valiosa em pouquímos casos, podem melhorar a qualidade e a capacidade de manutenção do código. Eles podem ajudar a reduzir o tempo e o esforço necessários para entender e manter o código, especialmente quando a base de código é grande ou complexa. </p>
+
 
