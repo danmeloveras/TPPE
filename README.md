@@ -116,7 +116,7 @@
 
 • Extrair classe: para criar um local onde as variáveis temporárias serão armazenadas. 
 
-## 📚 Boa documentação.
+## 📚 Boa documentação
 
 <p align="justify">Uma boa documentação resulta em:</p>
 
