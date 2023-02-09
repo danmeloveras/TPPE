@@ -1,6 +1,6 @@
-# TPPE01
+# TPPE
 
-Este repositório tem como objetivo contemplar o primeiro trabalho da  
+Este repositório tem como objetivo contemplar todos os trabalhos da disciplina:
 
 🏛 Discplina:</b> TPPE - Técnicas de Programação para Plataformas Emergentes
 
