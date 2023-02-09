@@ -7,5 +7,5 @@ Este repositório tem como objetivo contemplar todos os trabalhos da disciplina:
 📚 Daniel de Sousa Oliveira Melo Veras • 170008371
 
 
-Cada branch dentro desse repositório refere-se a um projeto dedicado a disciplina.
+Cada <b>branch</b> dentro desse repositório refere-se a um projeto dedicado a disciplina.
 
